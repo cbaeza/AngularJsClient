@@ -9,19 +9,20 @@ A basic angular js client with foundation framework.
 
 Install
 =======
->npm install mysql
->npm install nodemon
->npm install express
->npm install http-server
+npm install mysql
+sudo npm install nodemon -g
+sudo npm install express -g
+npm install http-server
 
-Execute
-=======
->nodemon server.js  
+Execute Server
+===============
+cd server
+nodemon server.js  
 go to -> http://localhost:3000/
 
 or
 
->http-server
+http-server
 go to -> http://localhost:8082/
 
 
