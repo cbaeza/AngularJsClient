@@ -18,7 +18,7 @@ var app = angular.module("app", ['ngRoute']).config(function($routeProvider){
 * Authentication Service
 * encapsulate, isolate
 */
-app.factory("AuthenticationService", function($location){
+/*app.factory("AuthenticationService", function($location){
 	return {
 		login: function(credentials){
 			if(credentials.username === "carlos"){
@@ -31,12 +31,12 @@ app.factory("AuthenticationService", function($location){
 			$location.path('/login');
 		}
 	};
-});
+});*/
 
 /*
 * LoginController
 */
-app.controller('LoginController', function($scope, AuthenticationService){
+/*app.controller('LoginController', function($scope, AuthenticationService){
 	$scope.credentials = { username: "", password: "" };
 
 	$scope.login = function(){
@@ -44,11 +44,11 @@ app.controller('LoginController', function($scope, AuthenticationService){
 	};
 
 });
-
+*/
 /*
 * HomeController
 */
-app.controller('HomeController', function($scope, AuthenticationService){
+/*app.controller('HomeController', function($scope, AuthenticationService){
 	$scope.title = "Home";
 	$scope.message = "mouse over this";
 
@@ -56,7 +56,7 @@ app.controller('HomeController', function($scope, AuthenticationService){
 		 AuthenticationService.logout();
 	}
 });
-
+*/
 
 /*
 * Some custom directives
