@@ -8,9 +8,16 @@ A basic angular js client with foundation framework.
 - GUI with foundation 5. 
 - 
 
+Prerequisites
+=============
+Node.js
+npm
+
 Run
 ===
 > sudo npm install http-server -g
 > http-server
 
 go to -> http://localhost:8082/
+
+
