@@ -8,8 +8,8 @@ A basic angular js client with foundation framework.
 - GUI with foundation 5. 
 - 
 
-Runinig
-=======
+Run
+===
 > sudo npm install http-server -g
 > http-server
 
